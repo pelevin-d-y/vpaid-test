@@ -36,6 +36,8 @@ window.addEventListener('resize', function(event) {
 function initializeIMA() {
   console.log("initializing IMA");
   adContainer = document.getElementById('ad-container');
+  console.log('google', google);
+
   adDisplayContainer = new google.ima.AdDisplayContainer(adContainer, videoElement);
   adsLoader = new google.ima.AdsLoader(adDisplayContainer);
   adsLoader.addEventListener(
@@ -56,12 +58,7 @@ function initializeIMA() {
 
 
 
-  adsRequest.adTagUrl = 'https://pubads.g.doubleclick.net/gampad/ads?' +
-      'iu=/21775744923/external/single_ad_samples&sz=640x480&' +
-      'cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&' +
-      'gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=';
-
-  adsRequest.adTagUrl = 'http://127.0.0.1:5500/my-vast.xml';
+  adsRequest.adTagUrl = 'https://pelevin-d-y.github.io/vpaid-test/my-vast.xml';
       
   // Specify the linear and nonlinear slot sizes. This helps the SDK to
   // select the correct creative if multiple are returned.
