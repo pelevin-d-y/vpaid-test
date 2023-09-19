@@ -2,7 +2,6 @@
  * @fileoverview A sample VPAID ad useful for testing a VPAID JS enabled player.
  * This ad will just play a video.
  */
-console.log('Load test PAID')
 /**
  * @constructor
  */
@@ -209,6 +208,10 @@ VpaidVideoPlayer.prototype.updateVideoPlayerSize_ = function() {
 VpaidVideoPlayer.prototype.startAd = function() {
   this.log('Starting ad');
   this.videoSlot_.play();
+
+  
+  this.log('Video Ad started')
+
 
   this.callEvent_('AdStarted');
 };
