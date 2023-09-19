@@ -206,10 +206,10 @@ VpaidVideoPlayer.prototype.updateVideoPlayerSize_ = function() {
  * Called by the wrapper to start the ad.
  */
 VpaidVideoPlayer.prototype.startAd = function() {
-  this.log('Starting ad');
+  this.log('Starting ad 1111111111111');
   this.videoSlot_.play();
 
-  
+
   this.log('Video Ad started')
 
 
