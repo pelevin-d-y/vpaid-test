@@ -1,0 +1,24 @@
+<VAST version="2.0">
+<Ad>
+<InLine>
+<AdSystem>Admon</AdSystem>
+<AdTitle>Ozon_Saleeeo</AdTitle>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:15</Duration>
+<TrackingEvents/>
+<AdParameters>
+<![CDATA[ {"clientId":"1686058275430","trafficSource":{"sid":"%7Bsid%7D","scid":"%7Bscid%7D","cid":"%7Bcid%7D","crid":"%7Bcrid%7D","adformat":"%7Badformat%7D","traffictype":"%7Btraffictype%7D"},"mediafiles":[{"src":"https://admoncdn.ru/video/ozon_09_23/OZON_Saleeeo_02_OLV_15s_infinix_batonchiki.mp4","type":"video/mp4"}],"controls":{"close":false,"timer":false,"mute":false},"clickURL":"https://px2.admon.pro/link?u=1686058275111&sid=%7Bsid%7D&scid=%7Bscid%7D&cid=%7Bcid%7D&crid=%7Bcrid%7D&adformat=%7Badformat%7D&traffictype=%7Btraffictype%7D&url=https%3A%2F%2Fwww.ozon.ru%2Fhighlight%2Frasprodazhio-1056916%2F%3Futm_source%3Ddf%26utm_medium%3Dcpm%26utm_content%3Dinstream%26utm_campaign%3Ddvazhio_rf","closeTime":"15"} ]]>
+</AdParameters>
+<MediaFiles>
+<MediaFile maintainAspectRatio="true" scalable="true" delivery="progressive" width="640" height="360" bitrate="256" apiFramework="VPAID" type="application/javascript">
+<![CDATA[ https://cdn.marvincdn.net/main.js ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
