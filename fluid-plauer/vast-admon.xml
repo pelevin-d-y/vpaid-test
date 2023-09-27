@@ -1,24 +1,55 @@
-<VAST version="2.0">
-<Ad>
-<InLine>
-<AdSystem>Admon</AdSystem>
-<AdTitle>Ozon_Saleeeo</AdTitle>
+<VAST xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="3.0">
+<Ad id="s1cu8sqoalhh3l07uepaywtxy29gdeh4">
+<Wrapper followAdditonalWrappers="true" allowMultipleAds="true">
+<AdSystem>
+<![CDATA[ Ad Server DF ]]>
+</AdSystem>
+<VASTAdTagURI>
+<![CDATA[ https://r.admon.pro/tags/ozon_09_23_kosmetika_grechka.xml?sid={sid}&scid={scid}&cid={cid}&crid={crid}&traffictype={traffictype}&adformat={adformat} ]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wayfyjbdt5zydqjrsv/%5BERRORCODE%5D ]]>
+</Error>
+<Impression>
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wa5yzx6lecsa2ngffxx9rprfdn ]]>
+</Impression>
 <Creatives>
 <Creative>
 <Linear>
-<Duration>00:00:15</Duration>
-<TrackingEvents/>
-<AdParameters>
-<![CDATA[ {"clientId":"1686058275430","trafficSource":{"sid":"%7Bsid%7D","scid":"%7Bscid%7D","cid":"%7Bcid%7D","crid":"%7Bcrid%7D","adformat":"%7Badformat%7D","traffictype":"%7Btraffictype%7D"},"mediafiles":[{"src":"https://admoncdn.ru/video/ozon_09_23/OZON_Saleeeo_02_OLV_15s_infinix_batonchiki.mp4","type":"video/mp4"}],"controls":{"close":false,"timer":false,"mute":false},"clickURL":"https://px2.admon.pro/link?u=1686058275111&sid=%7Bsid%7D&scid=%7Bscid%7D&cid=%7Bcid%7D&crid=%7Bcrid%7D&adformat=%7Badformat%7D&traffictype=%7Btraffictype%7D&url=https%3A%2F%2Fwww.ozon.ru%2Fhighlight%2Frasprodazhio-1056916%2F%3Futm_source%3Ddf%26utm_medium%3Dcpm%26utm_content%3Dinstream%26utm_campaign%3Ddvazhio_rf","closeTime":"15"} ]]>
-</AdParameters>
-<MediaFiles>
-<MediaFile maintainAspectRatio="true" scalable="true" delivery="progressive" width="640" height="360" bitrate="256" apiFramework="VPAID" type="application/javascript">
-<![CDATA[ https://cdn.marvincdn.net/main.js ]]>
-</MediaFile>
-</MediaFiles>
+<TrackingEvents>
+<Tracking event="start">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wajv5l6yitkawvf ]]>
+</Tracking>
+<Tracking event="progress" offset="00:00:01">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wabw8bglf45xxo6gwi ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wahkjsk5qppgw ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8waanzy8vyfkk5nlyk0h ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8waxrmweatrgqjebggqjr ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8waoqkj1t247skud ]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wan7acxdj9lofj ]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://r.admon.pro/tags/ozon_09_23_kosmetika_grechka.xml?sid={sid}&scid={scid}&cid={cid}&crid={crid}&traffictype={traffictype}&adformat={adformat} ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[ https://vst.dfn-network.pro/d7hc9bulvofv8wawgztlikbp2g ]]>
+</ClickTracking>
+</VideoClicks>
 </Linear>
 </Creative>
 </Creatives>
-</InLine>
+</Wrapper>
 </Ad>
 </VAST>
