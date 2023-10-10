@@ -4,7 +4,8 @@ var player = fluidPlayer("video-element", {
     adList: [
       {
         roll: "preRoll",
-        vastTag: "vast-admon.xml",
+        vastTag: "vast-dfn-vpaid.xml",
+        // vastTag: "google-ad.xml",
       },
     ],
 

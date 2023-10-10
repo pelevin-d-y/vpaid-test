@@ -1,0 +1,30 @@
+<VAST xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="3.0">
+<Ad id="rsbolf5iffgdmerwp3wotukyapvuwphr">
+<InLine>
+<AdSystem>Ad Server DF</AdSystem>
+<AdTitle/>
+<Description/>
+<Error>
+<![CDATA[ https://vst.dfdev.tbhost.org/xhhnitu2llhjoabveqnx6ia47idqbwc/%5BERRORCODE%5D ]]>
+</Error>
+<Impression>
+<![CDATA[ https://vst.dfdev.tbhost.org/xhhnitu2llhjoabzwfpaz2vn3ys7e7bqq ]]>
+</Impression>
+<Creatives>
+<Creative>
+<Linear>
+<AdParameters>
+
+<![CDATA[ {"pixels":[],"vast_link":"https://vst.dfdev.tbhost.org/2a40da7eddc595a7d31bf02b804cee3f"} ]]>
+</AdParameters>
+<MediaFiles>
+<MediaFile type="application/javascript" delivery="progressive" scalable="true" maintainAspectRatio="true" apiFramework="VPAID">
+  vpaid.js
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
